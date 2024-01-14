@@ -1,0 +1,28 @@
+/* font family  */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary_color: red;
+    --heading_font_size: 45px;
+    --discription_font_size: 22px;
+}
+
+/* common class below  */
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
