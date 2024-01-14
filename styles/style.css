@@ -1,28 +1,112 @@
-/* font family  */
-
-
+/* Poppins font family  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* Inter font family  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 * {
     padding: 0;
     margin: 0;
 }
 
-:root{
-    --primary_color: red;
-    --heading_font_size: 45px;
-    --discription_font_size: 22px;
+:root {
+    --color: #3A3A3A;
+    --font_family: 'Poppins', sans-serif;
+    --p_size: 16px;
+    --item_heding_color: #18191F;
+    --button_color: #E02C6D;
 }
 
 /* common class below  */
 
-
-
-
-
-
-
-
-
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+p {
+    color: var(--color);
+    font-family: var(--font_family);
+    font-size: var(--p_size);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+/* header section start */
+.header_section {
+    width: 1440px;
+    margin: 0 auto;
+    border: 5px solid red;
+    padding: 87px 120px;
+}
+
+
+
+
+
+.nav_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.nav_section>.logo {
+    font-family: var(--font_family);
+    color: var(--color;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>ul>li {
+    list-style: none;
+    margin-right: 34px;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    font-family: var(--font_family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--color);
+}
+
+
+/* banar section code  */
+
+.banar_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banar_section_content,
+.banar_section_img {
+    width: 40%;
+}
+
+.banar_section_content>h1 {
+    color: var(--color);
+    font-family: var(--font_family);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
 }
