@@ -237,10 +237,25 @@ p {
 
 
 
+/* footer section code  */
 
+.footer_section {
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 46px 0 30px 0;
+}
 
+.footer_section  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-footer {
-    background-color: red;
-    height: 400px;
+.footer_section > ul > li {
+    list-style: none;
+    padding: 14px;
+}
+.footer_section  > ul > li > a{
+    text-decoration: none;
 }
