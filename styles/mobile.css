@@ -65,8 +65,8 @@
 
 .corporet_section {
 	display: grid;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(2, auto);
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	/* grid-template-rows: repeat(2, auto); */
 	gap: 30px;
 	margin: 50px 10px;
 }
